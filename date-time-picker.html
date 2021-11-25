@@ -14,13 +14,16 @@
     <script src="https://kit.fontawesome.com/fa33e720ac.js" crossorigin="anonymous"></script>
  
     <style>
+        /* Datepicker */
         .datepicker-date-display{background: orange!important;}
         .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done{color: orange!important;}  
         .dropdown-content li>a, .dropdown-content li>span{color: orange!important;}
         .datepicker-table td.is-selected{background-color: orange!important;}
-        
+        .datepicker-table td.is-today {color: orange!important;}
 
-            
+             
+
+            /* Timepicker */
         .timepicker-digital-display{
             background: orange!important;}   
         .timepicker-close{color: orange!important;} 
@@ -29,6 +32,12 @@
         .timepicker-canvas-bg {fill: orange!important;}
         .timepicker-canvas-bearing {fill: orange!important;}
         .timepicker-tick:hover{background: orange!important;}
+
+        /* Both Date and Time Picker */
+        button:focus {background-color: orange!important;}
+        input[type=text]:not(.browser-default):focus:not([readonly])+label{color: orange!important;}    
+        input[type=text]:not(.browser-default):focus:not([readonly])
+            {border-bottom: 1px solid orange!important; box-shadow: 0 1px 0 0 orange!important;}
         
 
     </style>
